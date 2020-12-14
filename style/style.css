@@ -1,0 +1,35 @@
+body{
+    background: beige;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/FuturaStd-Medium.eot');
+    src: url('../fonts/FuturaStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaStd-Medium.woff2') format('woff2'),
+        url('../fonts/FuturaStd-Medium.woff') format('woff'),
+        url('../fonts/FuturaStd-Medium.ttf') format('truetype'),
+        url('../fonts/FuturaStd-Medium.svg#FuturaStd-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Std Oblique';
+    src: url('../fonts/FuturaStd-MediumOblique.eot');
+    src: url('../fonts/FuturaStd-MediumOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaStd-MediumOblique.woff2') format('woff2'),
+        url('../fonts/FuturaStd-MediumOblique.woff') format('woff'),
+        url('../fonts/FuturaStd-MediumOblique.ttf') format('truetype'),
+        url('../fonts/FuturaStd-MediumOblique.svg#FuturaStd-MediumOblique') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+h1{
+    font-family: 'Futura Std Oblique';
+}
+h2{
+    font-family: 'Futura Std';
+}
